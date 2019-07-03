@@ -1,4 +1,4 @@
-# oloid
+# Oloid
 Oloid est une application pour les étudiants de Lyon 1. Elle permet d'accéder à ses notes, son emploi du temps, ses examens...
 
 ## Discord
