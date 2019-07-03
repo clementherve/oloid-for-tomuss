@@ -9,6 +9,7 @@ Oloid est une application pour les étudiants de Lyon 1. Elle permet d'accéder 
 
 ## Screens
 <img src="screen_1.png" width="250"> <img src="screen_2.png" width="250"> <img src="screen_3.png" width="250">
+<img src="screen_4.png" width="250">
 
 
 ## Fonctionalitées
