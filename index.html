@@ -1,0 +1,269 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>Oloid pour Tomuss</title>
+		
+		<link href="https://fonts.googleapis.com/css?family=Montserrat:300,400,500,700&display=swap" rel="stylesheet"> 
+
+		<style>
+			body{
+				margin: 0px;
+				font-family: Montserrat;
+				overflow-x: hidden;
+				cursor: default;
+			}
+			a{
+				text-decoration: none;
+				color: inherit;
+			}
+			img{
+				width: 100%;
+			}
+			b{
+				color: #424242;
+			}
+
+
+			header{
+				background-color: #FFFFFF;
+				position: fixed;
+				cursor: default;
+				width: 100%;
+				top: 0px;
+				left: 0px;
+				right: 0px;
+				height: 70px;
+				display: flex;
+				justify-content: space-between;
+				vertical-align: middle;
+				align-items: center;
+				box-shadow: 2px 2px 6px rgba(0, 0, 0, 0.1);
+				font-size: 13px;
+			}
+			header #logo{
+				width: 30px;
+				height: 30px;
+				margin: 0px 25px;
+			}
+			header #logo-text{
+				font-size: 15px;
+				font-weight: bold;
+				color: #FF7043;
+				vertical-align: center;
+			}
+			header #app-intro{
+				display: flex;
+				align-items: center;
+			}
+
+
+
+			#page-1{
+				margin-top: 40px;
+			}
+			h1{
+				color: #FF7043;
+				font-size: 50px;
+				font-weight: 500;
+				text-align: center;
+			}
+			h2{
+				color: #424242;
+			}
+			p{
+				margin: 10px;
+				line-height: 1.8;
+			}
+			.page{
+				display: flex;
+				justify-content: space-around;
+			}
+			.page div{
+				width: 50vw;
+				text-align: center;
+			}
+			.page img{
+				width: 400px;
+				display: block;
+				margin: 0px auto;
+			}
+			.page-text div{
+				margin-top: 20vh;
+			}
+			.img-flex{
+				display: flex;
+			}
+
+			.button{
+				color: white;
+				font-size: 15px;
+				padding: 12px 25px;
+				border-radius: 35px;
+				width: 200px;
+				text-align: center;
+				font-weight: 500;
+				display: block;
+				margin: 80px auto;
+				transition: all 250ms;
+				box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+				background: rgb(255,171,145);
+				background: linear-gradient(-145deg, rgba(255,171,145,1) 0%, rgba(255,87,34,1) 100%); 
+			}
+			.button:hover{
+				transition: all 250ms;
+				box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3);				
+			}
+			.header-button{
+				margin: 0px;
+				padding: 10px 15px;
+				width: 180px;
+				margin-right: 20px;
+				box-shadow: 0px 0px 5px rgba(0, 0, 0, 0);
+			}
+			
+
+
+			footer{
+				padding: 20px;
+				border-radius: 6px;
+				font-size: 17px;
+				color: #424242;
+				width: calc(90vw - 40px);
+				margin: 40px auto;
+				background: rgb(255,171,145);
+				background: linear-gradient(-145deg, rgba(255,171,145,1) 0%, rgba(255,138,101,1) 100%);
+			}
+			footer h3{
+				margin-top: 40px;				
+			}
+			footer p{
+				margin: 0px;
+			}
+
+			.social-footer{
+				margin: 30px auto;
+				display: flex;
+				justify-content: center;
+			}
+			.social-link img{
+				width: 70px;
+				height: 70px;
+			}
+			.social-footer a{
+				margin: 0px 20px;
+			}
+		</style>	
+	</head>
+	<body>
+		<header>
+			<div id="app-intro">
+				<img src="logo-2.png" id="logo">
+				<span id="logo-text">Oloid pour Tomuss</span>
+			</div>
+			<a href="https://github.com/cl6ment/oloid-for-tomuss/releases/download/beta-1.0.6/oloid-1.0.6-beta.apk" class="button header-button">Télécharger</a>
+		</header>
+		
+
+		<div class="page" id="page-1">
+			<div class="page-text">
+
+				<div>
+					<h1>Oloid</h1>
+					<p>Indispensable quand on est à <b>Lyon 1</b> ! Retrouve tes notes, ton emploi du temps, tes examens, une carte des bâtiments et bien plus encore !</p>	
+					<a href="https://github.com/cl6ment/oloid-for-tomuss/releases/download/beta-1.0.6/oloid-1.0.6-beta.apk" class="button" id="download">Télécharger (1.0.6-beta)</a>
+				</div>
+				
+			</div>
+			
+			<div class="img-flex">
+				<img src="screen-4.png">
+				<img src="screen-6.png">
+			</div>			
+
+		</div>
+
+
+		<div class="page" id="page-2">
+			
+			<div class="img-flex">
+				<img src="screen-10.png">
+				<img src="screen-6.png">
+			</div>
+
+			<div class="page-text">
+				<div>
+					<h2>Notes</h2>
+					<p>Tu veux vite savoir tes notes ? Le site de la fac n'est pas adapté à ton mobile ? <br> C'est pour ça qu'Oloid existe !</p>
+				</div>
+				
+			</div>
+
+		</div>
+
+
+		<div class="page" id="page-2">
+
+			<div class="page-text">
+				<div>
+					<h2>Emploi du temps</h2>
+					<p>Ton emploi du temps, toujours à jour, jamais en rade !<br> Tu ne sais pas où est ton amphi ? L'app te le dira !</p>
+				</div>
+				
+			</div>
+
+			<div class="img-flex">
+				<img src="screen-3.png">
+				<img src="screen-7.png">
+			</div>
+		</div>
+
+
+
+
+		<div class="page" id="page-3">
+			
+			<div class="img-flex">
+				<img src="screen-2.png">
+				<img src="screen-9.png">
+			</div>
+
+			<div class="page-text">
+				<div>
+					<h2>Examens</h2>
+					<p>Un examen dans 10 minutes et tu ne connais pas ta place ? <br>Tu ne sais pas où est l'amphi ?<br> Pas de panique ! On a pensé à tout.</p>
+				</div>
+				
+			</div>
+			
+		</div>
+
+		<footer>
+			
+			<h3>A propos</h3>
+
+			<p>
+				Oloid est une application pour les étudiants, par les étudiants. Nous avons eu les mêmes soucis avec l'emploi du temps : pas disponible entre minuit et 4h, pas du tout adapté aux mobiles, bref, une vraie galère !
+				<br><br>
+				Pour les notes, Tomuss est génial, mais il souffre de son affichage entièrement JS : c'est relativement lent ! Oloid se base sur des composants natifs android pour accélérer le chargement : <i>2x plus rapide !</i>
+			</p>
+
+			<h3>Vie privée</h3>
+			<p>
+				Oloid n'est pas encore open-source, mais le deviendra très bientôt. Sache déjà que l'application à été développée avec une emphase particulière sur la vie privée : pas de pistage ! Les seules données que nous récoltons sont liées aux plantages de l'application. Une option sera prochainement ajoutée pour ceux qui ne souhaitent pas envoyer de rapport de plantage.
+			</p>
+
+			<h3>Une remarque ? Des questions ?</h3>
+			<p>
+				Venez papotez avec nous sur Discord & Github !
+			</p>
+			
+		</footer>
+
+		<div class="social-footer">
+			<a href="https://discord.gg/zDhNMr4" class="social-link"><img src="discord-logo.png"></a>
+			<a href="https://github.com/cl6ment/oloid-for-tomuss" class="social-link"><img src="github-logo.png"></a>
+		</div>
+
+	</body>
+</html>
