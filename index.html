@@ -3,7 +3,8 @@
 	<head>
 		<meta charset="utf-8">
 		<title>Oloid pour Tomuss</title>
-		
+		<meta name="viewport" content="width=device-width">
+
 		<link href="https://fonts.googleapis.com/css?family=Montserrat:300,400,500,700&display=swap" rel="stylesheet"> 
 
 		<style>
@@ -152,6 +153,46 @@
 			}
 			.social-footer a{
 				margin: 0px 20px;
+			}
+
+
+			@media all and (max-width: 1000px){
+
+				header .header-button{
+					display: none;
+				}
+				header #app-intro{
+					justify-content: center;
+					width: 100%;
+					margin-left: -10px;
+				}
+
+				.page:nth-child(even){
+					flex-direction: column;
+					align-items: center;
+					width: 100%;
+				}
+				.page:nth-child(odd){
+					flex-direction: column-reverse;
+					align-items: center;
+					width: 100%;
+				}
+				.page .img-flex, .page .page-text, .page div{
+					width: 100%;
+					text-align: center;
+				}
+				
+
+				#download{
+					position: fixed;
+					bottom: 30px;
+					left: 0px;
+					right: 0px;
+					margin: 0px auto;
+				}
+				.social-footer{
+					margin-bottom: 90px;
+				}
 			}
 		</style>	
 	</head>
