@@ -26,11 +26,7 @@
 
 			ga(function() {
 				ga('create', 'UA-102659274-4');
-			  	let trackers = ga.getAll();
-			  	let tracker = trackers[0];
-			  	tracker.send('send', 'event', 'download', 'click', 'download-header');
-
-			  	console.log("yey", trackers)
+			  	ga('send', 'event', 'download', 'click', 'download-header');
 			});
 
 		</script>
