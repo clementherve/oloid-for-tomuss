@@ -9,7 +9,7 @@ Pour télécharger l'application, voir <a href="https://github.com/cl6ment/oloid
 
 ## Screens
 <p align="center">
-	<img src="img/screen-4.png" width="220"> <img src="img/screen-1.png" width="220"> <img src="img/screen-10.png" width="220"> 
+	<img src="img/screen-4.png" width="220"> <img src="img/screen-11.png" width="220"> <img src="img/screen-10.png" width="220">
 	<img src="img/screen-3.png" width="220"> <img src="img/screen-2.png" width="220"> <img src="img/screen-9.png" width="220">
 </p>
 
