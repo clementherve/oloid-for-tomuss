@@ -5,7 +5,7 @@ Voir <a href="https://cl6ment.github.io/oloid-for-tomuss/">la page de présentat
 Pour signaler un bug ou participer au développement, se rendre sur le Discord : <a href="https://discord.gg/zDhNMr4">lien d'invitation</a>.
 
 ## Téléchargement
-Pour télécharger l'application, voir <a href="https://github.com/cl6ment/oloid-release/releases">cette page</a>.
+Pour télécharger l'application, voir <a href="https://play.google.com/store/apps/details?id=com.e.oloid2">cette page</a>.
 
 ## Screens
 <p align="center">
