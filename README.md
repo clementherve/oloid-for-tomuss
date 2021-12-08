@@ -1,6 +1,6 @@
 # Oloid
 Oloid est une application pour les étudiants de Lyon 1. Elle permet d'accéder à ses notes, ses mails, son emploi du temps, ses examens...
-Voir <a href="https://cl6ment.github.io/oloid-for-tomuss/">la page de présentation</a>
+Voir <a href="https://oloid.clementherve.fr">la page de présentation</a>
 ## Discord
 Pour signaler un bug ou participer au développement, se rendre sur le Discord : <a href="https://discord.gg/zDhNMr4">lien d'invitation</a>.
 
